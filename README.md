@@ -3,9 +3,12 @@ Python tool to fetch a random image from any subreddit. BETA
 
 ## Usage
 
-Modify the Python file to the subreddit you want to grab an image from (this currently only works with image only subs like r/pics, support for partially-picture subreddits to be added)
+Modify line 4 of main.py after /r/ to point to the subreddit you want to grab an image from.
 Run the file/skid the code into your own app and modify the variables as needed. Please credit me though <3
+Honestly, I'm leaving the code really open ended so it can be modified really easily.
 
-### To-Do
+### Dependencies
 
-- Add support for partial image subreddits
+Python 3
+urllib3
+json
