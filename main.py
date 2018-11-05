@@ -10,7 +10,7 @@ while True:
     parsedjson = json.loads(thedata)
     thefinalurl = parsedjson[0]['data']['children'][0]['data']['url']
     if thefinalurl.endswith('.png') or thefinalurl.endswith('.jpg') or thefinalurl.endswith('.gif'):
-        # Do what you want with the variable here, e.g:
+        # Do what you want with the variable here! :) e.g:
         print(thefinalurl)
         break
     else:
